@@ -1,0 +1,10 @@
+server:
+  port: 9000
+spring:
+  jpa:
+    hibernate:
+    database-platform: org.hibernate.dialect.PostgreSQL10Dialect
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/user_master"
+    username: keycloak
+    password: keycloak
